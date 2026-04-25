@@ -19,3 +19,20 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Dagster
+$DAGSTER_HOME/
+dagster_home/
+dagster_pipeline/__pycache__/
+.dagster/
+logs/
+tmp/
+storage/
+history/
+
+# MLflow
+mlruns/
+
+# Outputs intermédiaires
+data/processed/shap_*.png
+data/processed/shap_values.parquet
